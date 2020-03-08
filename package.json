@@ -1,0 +1,23 @@
+{
+  "name": "torontojs-frontend-fw-workshop",
+  "version": "1.0.0",
+  "description": "The follow-along repository for the Toronto JS Frontend Framework workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel server index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATranimal/torontojs-frontend-fw-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATranimal/torontojs-frontend-fw-workshop/issues"
+  },
+  "homepage": "https://github.com/ATranimal/torontojs-frontend-fw-workshop#readme",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "snabbdom": "^0.7.4"
+  }
+}
