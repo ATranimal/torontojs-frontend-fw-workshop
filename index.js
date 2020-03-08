@@ -1,6 +1,6 @@
 import { init } from "./framework/index";
 import { Welcome } from "./components/Welcome";
 
-const student = "Simon";
+const initComponent = Welcome("Simon");
 
-init("#app", Welcome(student));
+init("#app", initComponent);

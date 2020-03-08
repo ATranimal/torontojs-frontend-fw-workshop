@@ -1,6 +1,10 @@
-export const p = string => {
+import h from "snabbdom/h";
+
+const createElement = tagName => string => {
   return {
-    type: "p",
-    template: string
+    type: "element",
+    template: h(tagName, {}, string)
   };
 };
+
+export const p = createElement("p");
