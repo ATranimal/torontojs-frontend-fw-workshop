@@ -1,4 +1,6 @@
 import { init } from "./framework/index";
-import { p } from "./framework/elements";
+import { Welcome } from "./components/Welcome";
 
-init("#app", p("Thanks for attending this workshop!"));
+const student = "Simon";
+
+init("#app", Welcome(student));
