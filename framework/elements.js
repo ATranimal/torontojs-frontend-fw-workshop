@@ -1,9 +1,9 @@
 import h from "snabbdom/h";
 
-const createElement = tagName => string => {
+const createElement = tagName => (string, ...args) => {
   return {
     type: "element",
-    template: h(tagName, {}, string)
+    template: h(tagName, ...args, string)
   };
 };
 
